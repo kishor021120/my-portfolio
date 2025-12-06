@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
+
+/* font styles */
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #000000;
+
+}
+#skills{
+    width: 890px;
+    height:365px ;
+    background-color: ;
+    margin-left: 5px; 
+    position: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius:10px;
+    border: 2px solid gray;
+    /* animation: duration timing-function delay iteration-count direction fill-mode; */
+   animation-name: skills-animation;
+   animation-duration: 1s;
+   animation-timing-function: ease;
+   animation-iteration-count: 1;
+   animation-delay: 5;
+
+    
+}
+#sk-cont{
+          width:90px;
+          height: 90px;
+          background-color:;
+          box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+          display:inline-block;
+          margin-left: 150px;
+          margin-top:40px;
+        
+          
+          
+        }    
+        #mapla{
+            margin-left: 100px;
+            margin-top: 70px;
+            
+        } 
+        #sk-cont img{
+                     width: 50px;
+                     height: 50px;
+                     margin-left: 20px;
+                     animation: none;
+        }
+        .h4{
+            color: white;
+            font-size: 9px;
+            text-align: center;
+
+        }
+        .letter{
+            color: white;
+            display: inline-block;
+            rotate: -90deg;
+            margin-top: 160px;
+            position: absolute;
+            margin-left: 20px;
+            font-size: 40px;
+             font-family: "Dancing Script", cursive;
+             color: yellow;
+            
+        
+        }
+        .line{
+             width: 90px;
+             height: 2px;
+             background-color: #ffcc00;
+             border-radius: 5px;
+             border: 2px solid red;
+             rotate: -90deg;
+            margin-top: 183px;
+            position: absolute;
+            margin-left: 43px;
+            /* media queries removed */
+        }
+        .my-skill{
+           font-size: 30px;
+           position: absolute;
+           color: yellow;
+           font-family: "Pacifico", cursive;
+           margin-left: 410px;
+        }
+
+        #sk-cont animation(){
+            animation:  duration timing-function delay iteration-count direction fill-mode;
+            
+        }
+        #mapla :hover{
+            scale: 1.55;
+        }
+
+
+
+         @keyframes skills-animation{
+     from{transform: translatex(900px);}
+  to{transform: translatex(px);}
+         }
+       
+
+        
+       
+       
+        

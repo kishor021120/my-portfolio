@@ -1,0 +1,52 @@
+ /* body {
+     background-color: #0a0a0a;
+      
+      
+      
+      height: px;
+      
+      font-family: Arial, sans-serif;
+      color: white;
+    }
+
+    .text {
+      margin-bottom: 30px;
+      font-size: 1.2rem;
+     
+    }
+
+    .social-icons {
+    
+      gap: 20px;
+    }
+
+    .icon {
+      width: 10px;
+      height: 10px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 50%;
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      display: inline-block;
+      justify-content: center;
+      align-items: center;
+      font-size: 26px;
+      color:#fefae0;
+      transition: all 0.3s ease;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .icon:hover {
+      transform: scale(1.1);
+      background: rgba(255, 255, 255, 0.2);
+      color: #00ffff;
+      box-shadow: 0 10px 25px rgba(0, 255, 255, 0.3);
+    }
+
+    footer{
+       bottom: 60%;
+        display: flex;
+        position: relative;
+        top: 500%;
+    } */
